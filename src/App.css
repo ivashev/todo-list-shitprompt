@@ -1,0 +1,27 @@
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}
+
+.todo-text {
+  text-decoration: none;
+}
+
+.ant-list-item-custom {
+  flex-wrap: initial !important;
+}
