@@ -59,7 +59,7 @@ const App: React.FC = () => {
         } else {
             return true;
         }
-    }), [ todos ]);
+    }), [ todos, filter ]);
 
     return (
         <div className="app-container">
